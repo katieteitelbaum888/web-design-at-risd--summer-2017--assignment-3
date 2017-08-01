@@ -586,29 +586,54 @@ theyare {width:360px;
   #tri_top{
   width:0;
   height:0;
-  border-bottom:120px solid #bbbbbb;
-  border-left: 80px solid transparent;
-  border-right: 80px solid transparent;
+  border-bottom:250px solid #bbbbbb;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
   filter: drop-shadow(1px 2px 4px #3a3c3f);
+  position: relative;
+  top: 30px;
+  margin: auto;
 }
 
 #tri_left{
   width:0;
   height:0;
-  border-bottom:120px solid #bbbbbb;
-  border-left: 80px solid transparent;
-  border-right: 80px solid transparent;
+  border-bottom:250px solid #bbbbbb;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
   filter: drop-shadow(1px 2px 4px #3a3c3f);
+  margin: auto;
+  position: relative;
+  left:-250px;
+  top:80px;
 }
 
 #tri_right{
   width:0;
   height:0;
-  border-bottom:120px solid #bbbbbb;
-  border-left: 80px solid transparent;
-  border-right: 80px solid transparent;
+  border-bottom:250px solid #bbbbbb;
+  border-left: 210px solid transparent;
+  border-right: 210px solid transparent;
   filter: drop-shadow(1px 2px 4px #3a3c3f);
+  position: relative;
+  margin: auto;
+  left:250px;
+  top:-170px;
 }
+
+#tri_bottom {
+   width: 0;
+   height: 0;
+   border-left: 210px solid transparent;
+   border-right: 210px solid transparent;
+   border-top: 250px solid #bbbbbb;
+   filter: drop-shadow(1px 2px 4px #3a3c3f);
+   position: relative;
+   margin: auto;
+   left: 4px;
+   top:-435px;
+}
+
 
 
 </style>
@@ -763,6 +788,7 @@ theyare {width:360px;
 <div id="tri_top"></div>
 <div id="tri_left"></div>
 <div id="tri_right"></div>
+<div id="tri_bottom"></div>
 
 </div>
 
