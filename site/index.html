@@ -583,41 +583,33 @@ theyare {width:360px;
 #honest h4 {font-size: 220%;
   margin-bottom: 10px;}
 
-  .diamond {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 0;
-  height: 0;
-  position: relative;
-  top: 0;
-  border: 50px solid rgba(0,0,0,0);
-  border-top-width: 0;
-  border-bottom: 70px solid #1abc9c;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
+  #tri_top{
+  width:0;
+  height:0;
+  border-bottom:120px solid #bbbbbb;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  filter: drop-shadow(1px 2px 4px #3a3c3f);
 }
 
-.diamond::after {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width: 0;
-  height: 0;
-  position: absolute;
-  content: "";
-  top: 70px;
-  left: -50px;
-  border: 50px solid rgba(0,0,0,0);
-  border-top: 70px solid #1abc9c;
-  font: normal 100%/normal Arial, Helvetica, sans-serif;
-  color: rgba(0,0,0,1);
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: none;
+#tri_left{
+  width:0;
+  height:0;
+  border-bottom:120px solid #bbbbbb;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  filter: drop-shadow(1px 2px 4px #3a3c3f);
 }
+
+#tri_right{
+  width:0;
+  height:0;
+  border-bottom:120px solid #bbbbbb;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  filter: drop-shadow(1px 2px 4px #3a3c3f);
+}
+
 
 </style>
 
@@ -768,6 +760,10 @@ theyare {width:360px;
 <div id="honest">
       <h4>Good design is...</h4>
 <div class="diamond"></div>
+<div id="tri_top"></div>
+<div id="tri_left"></div>
+<div id="tri_right"></div>
+
 </div>
 
 
