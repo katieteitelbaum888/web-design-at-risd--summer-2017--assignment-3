@@ -576,71 +576,161 @@ theyare {width:360px;
    padding-left: 20px;
    padding-right:20px;
    padding-top: 2px;
-   padding-bottom: 30px;
+   padding-bottom: 150px;
    font-family: 'Roboto','Arial';
 }
 
 #honest h4 {font-size: 220%;
   margin-bottom: 10px;}
 
-  #tri_top{
-  width:0;
-  height:0;
-  border-bottom:250px solid #bbbbbb;
-  border-left: 210px solid transparent;
-  border-right: 210px solid transparent;
-  filter: drop-shadow(1px 2px 4px #3a3c3f);
-  position: relative;
-  top: 30px;
-  margin: auto;
+.tri_left {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 200px 240px 200px;
+    border-color: transparent transparent #bbbbbb transparent;
+    float: left;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    filter: drop-shadow(1px 2px 4px #3a3c3f);
+    position: relative;
+    top:230px;
+    left:-370px;
 }
 
-#tri_left{
-  width:0;
-  height:0;
-  border-bottom:250px solid #bbbbbb;
-  border-left: 210px solid transparent;
-  border-right: 210px solid transparent;
-  filter: drop-shadow(1px 2px 4px #3a3c3f);
-  margin: auto;
-  position: relative;
-  left:-250px;
-  top:80px;
+.tri_left p {
+    text-align: center;
+    top: 80px;
+    left: -72px;
+    position: relative;
+    width: 145px;
+    height: 120px;
+    margin: 0px;
+    line-height: 2;
 }
 
-#tri_right{
-  width:0;
-  height:0;
-  border-bottom:250px solid #bbbbbb;
-  border-left: 210px solid transparent;
-  border-right: 210px solid transparent;
-  filter: drop-shadow(1px 2px 4px #3a3c3f);
-  position: relative;
-  margin: auto;
-  left:248px;
-  top:-170px;
+.tri_right {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 200px 240px 200px;
+    border-color: transparent transparent #bbbbbb transparent;
+    float: left;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    filter: drop-shadow(1px 2px 4px #3a3c3f);
+    position: relative;
+    top:-10px;
+    left: 610px;
 }
 
-#tri_bottom {
+.tri_right p {
+    text-align: center;
+    top: 80px;
+    left: -72px;
+    position: relative;
+    width: 145px;
+    height: 120px;
+    margin: 0px;
+    line-height: 2;
+}
+
+.tri_top {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 200px 240px 200px;
+    border-color: transparent transparent #bbbbbb transparent;
+    float: left;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    filter: drop-shadow(1px 2px 4px #3a3c3f);
+    position: relative;
+    top:-32px;
+    left:400px;
+}
+
+.tri_toptwo {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 80px 90px 80px;
+    border-color: transparent transparent #76D663 transparent;
+    float: left;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    filter: drop-shadow(1px 2px 4px #3a3c3f);
+    position: relative;
+    top:14px;
+    left:120px;
+}
+
+.tri_top p {
+    text-align: center;
+    top: 80px;
+    left: -72px;
+    position: relative;
+    width: 145px;
+    height: 120px;
+    margin: 0px;
+    line-height: 2;
+}
+
+
+
+.tri_bottom {
    width: 0;
    height: 0;
-   border-left: 210px solid transparent;
-   border-right: 210px solid transparent;
-   border-top: 250px solid #bbbbbb;
-   filter: drop-shadow(1px 2px 4px #3a3c3f);
+   border-left: 200px solid transparent;
+   border-right: 200px solid transparent;
+   border-top: 240px solid #bbbbbb;
    position: relative;
    margin: auto;
-   left: 1px;
-   top:-435px;
+   left: 10px;
+   top:220px;
+   filter: drop-shadow(1px 2px 4px #3a3c3f);
 }
+
+.tri_bottomtwo {
+   width: 0;
+   height: 0;
+   border-left: 130px solid transparent;
+   border-right: 130px solid transparent;
+   border-top: 150px solid #76D663;
+   position: relative;
+   margin: auto;
+   left: 10px;
+   top:10px;
+   filter: drop-shadow(0px 1px 2px #3a3c3f);
+}
+
+
 
 
 #honest h5 {font-family: 'Bauhaus';
 font-size: 410%;
 text-align: center;
 color:#fff;
-margin-top:57px;
-margin-bottom: -300px;}
+margin: auto;
+position: relative;
+left:-114px;
+top:162px;
+}
+
+
+
 
 </style>
 
@@ -788,13 +878,22 @@ margin-bottom: -300px;}
     <div id="vertical_line_four"></div>
 </div>
 
+
+
 <div id="honest">
       <h4>Good design is...</h4>
-<div class="diamond"></div>
-<div id="tri_top"><h5>HONEST</h5></div>
-<div id="tri_left"></div>
-<div id="tri_right"></div>
-<div id="tri_bottom"></div>
+
+<div class="tri_top"><h5>HONEST</h5></div>
+<div class="tri_toptwo"></div>
+
+<div class="tri_left"><p>It does not make a product appear more innovative,<br>
+powerful or valuable than it really is.<p></div>
+
+<div class="tri_right"><p>It does not attempt to manipulate the consumer with promises that cannot be kept.</p></div>
+
+<div class="tri_bottom"></div>
+<div class="tri_bottomtwo"></div>
+
 
 </div>
 
